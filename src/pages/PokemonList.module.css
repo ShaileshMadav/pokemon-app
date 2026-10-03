@@ -1,0 +1,42 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.header {
+  text-align: center;
+  padding: 3rem 2rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  margin: 0.5rem 0 0;
+  opacity: 0.95;
+  font-weight: 400;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header {
+    padding: 2rem 1rem 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}
